@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import SaidPhoto from "../assets/said.jpg"; // Vérifiez bien l'extension (.jpg, .png ou .webp)
+import SaidPhoto from "../assets/said.png";// Vérifiez bien l'extension (.jpg, .png ou .webp)
 
 const values = [
   {
