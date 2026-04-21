@@ -9,10 +9,10 @@ const strengths = [
 ];
 
 const countries = [
-  { name: "France", flag: "src/assets/France.webp" },
-  { name: "Maroc", flag: "src/assets/Morocco.svg" },
-  { name: "Allemagne", flag: "src/assets/allemagne.webp" },
-  { name: "Sénégal", flag: "src/assets/Senegal.svg" },
+  { name: "France", flag: "France.webp" },
+  { name: "Maroc", flag: "Morocco.svg" },
+  { name: "Allemagne", flag: "allemagne.webp" },
+  { name: "Sénégal", flag: "Senegal.svg" },
 ];
 
 const AboutSection = () => (
