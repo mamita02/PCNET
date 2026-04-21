@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import { Battery, Cpu, HardDrive, Laptop, Monitor, Mouse, PlugZap } from "lucide-react";
+import HPLogo from "../assets/HP-Logo.png";
+import DellLogo from "../assets/Dell.jpg";
+import LenovoLogo from "../assets/lenovo.png";
 
 const products = [
   { icon: Monitor, name: "Écrans", desc: "Moniteurs professionnels toutes tailles" },
@@ -12,9 +15,9 @@ const products = [
 ];
 
 const brands = [
-  { name: "HP", logo: "src/assets/HP-Logo.png" },
-  { name: "Dell", logo: "src/assets/Dell.jpg" },
-  { name: "Lenovo", logo: "src/assets/lenovo.png" },
+  { name: "HP", logo: HPLogo },
+  { name: "Dell", logo: DellLogo },
+  { name: "Lenovo", logo: LenovoLogo },
 ];
 
 const ProductsSection = () => (
