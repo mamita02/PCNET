@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
+import SaidPhoto from "../assets/said.jpg"; // Vérifiez bien l'extension (.jpg, .png ou .webp)
 
 const values = [
   {
@@ -184,12 +185,12 @@ const QuiSuisJe = () => {
                   style={{ background: "linear-gradient(135deg, #4a90d9 0%, #1a3a6e 100%)", opacity: 0.4 }}
                 />
 
-                <img
-                  src="assets/said.png"
-                  alt="Said TALIB"
-                  className="relative z-10 w-full rounded-2xl object-cover shadow-[0_30px_80px_rgba(0,0,0,0.5)]"
-                  style={{ aspectRatio: "4/5", objectPosition: "center top" }}
-                />
+               {/* L'image de Said */}
+              <img 
+                src={SaidPhoto} 
+                alt={member.name}
+                className="relative z-10 w-full h-auto rounded-3xl shadow-2xl object-cover"
+              />
 
 
               </div>
