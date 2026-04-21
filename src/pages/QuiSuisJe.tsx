@@ -69,7 +69,8 @@ function AnimatedSection({ children, className = "", delay = 0 }: { children: Re
 
 const QuiSuisJe = () => {
   const [showMore, setShowMore] = useState(false);
-
+// AJOUTE CECI ICI
+  const member = { name: "Said TALIB" };
   return (
     <>
       <Navbar />
